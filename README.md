@@ -14,7 +14,7 @@
 * hostnamectl set-hostname kube-node1
 * hostnamectl set-hostname kube-node2
 * hostnamectl set-hostname kube-node3
-### 修改/etc/hosts文件,添加：
+### 修改/etc/hosts文件，添加：
 * 192.168.100.61 kube-node1 kube-node1
 * 192.168.100.62 kube-node2 kube-node2
 * 192.168.100.63 kube-node3 kube-node3
