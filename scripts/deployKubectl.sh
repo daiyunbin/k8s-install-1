@@ -1,6 +1,6 @@
 #!/usr/bin/bash
-source /opt/k8s/bin/environment.sh
 
+source /opt/k8s/bin/environment.sh
 cd /opt/k8s/work
 
 # 下载kubectl二进制文件
