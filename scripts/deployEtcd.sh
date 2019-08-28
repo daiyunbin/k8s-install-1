@@ -5,6 +5,7 @@ cd /opt/k8s/work
 
 # 下载etcd二进制文件
 mkdir etcd
+
 if [ ! -f "/home/yyr/k8s-install/packages/etcd-v3.3.13-linux-amd64.tar.gz" ];then
   wget https://github.com/coreos/etcd/releases/download/v3.3.13/etcd-v3.3.13-linux-amd64.tar.gz
   tar -xvf etcd-v3.3.13-linux-amd64.tar.gz
