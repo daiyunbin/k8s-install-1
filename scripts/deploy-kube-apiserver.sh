@@ -8,6 +8,7 @@ source /opt/k8s/bin/environment.sh
 cd kubernetes
 tar -xzvf  kubernetes-src.tar.gz
 
+cd /opt/k8s/work
 # 将二进制文件拷贝到所有 master 节点
 for node_ip in ${NODE_IPS[@]}
   do
@@ -16,7 +17,6 @@ for node_ip in ${NODE_IPS[@]}
     ssh root@${node_ip} "chmod +x /opt/k8s/bin/*"
   done
 
-cd /opt/k8s/work
 # 创建 kubernetes 证书和私钥
 cat > kubernetes-csr.json <<EOF
 {
