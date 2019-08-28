@@ -4,12 +4,11 @@ source /opt/k8s/bin/environment.sh
 cd /opt/k8s/work
 
 # 下载kubectl二进制文件
-mkdir kubernetes
 if [ ! -f "/home/yyr/k8s-install/packages/kubernetes-server-linux-amd64.tar.gz" ];then
   wget https://dl.k8s.io/v1.10.4/kubernetes-server-linux-amd64.tar.gz
   tar -xzvf kubernetes-server-linux-amd64.tar.gz
 else
-  tar -xzvf /home/yyr/k8s-install/packages/kubernetes-server-linux-amd64.tar.gz -C kubernetes
+  tar -xzvf /home/yyr/k8s-install/packages/kubernetes-server-linux-amd64.tar.gz
 fi
 
 # 分发 kubectl 二进制文件到所有使用 kubectl 的节点
