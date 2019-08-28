@@ -5,7 +5,6 @@ cd /opt/k8s/work
 
 # 下载 nginx 源码
 mkdir nginx
-
 if [ ! -f "/home/yyr/k8s-install/packages/nginx-1.15.3.tar.gz" ];then
   wget http://nginx.org/download/nginx-1.15.3.tar.gz
   tar -xzvf http://nginx.org/download/nginx-1.15.3.tar.gz -C nginx
