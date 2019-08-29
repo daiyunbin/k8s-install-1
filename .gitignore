@@ -1,1 +1,3 @@
 kubernetes.conf
+*.tar.gz
+*.tgz
