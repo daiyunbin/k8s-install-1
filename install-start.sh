@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 
-chmod +x ./scripts/*
+chmod a+x ./scripts/*
 
 cd scripts/ && \
     ./initialize.sh && \
