@@ -1,4 +1,4 @@
 kubernetes.conf
 *.tar.gz
 *.tgz
-.idea
+.idea/
