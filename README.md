@@ -17,5 +17,8 @@
 * 192.168.100.61 kube-node1 kube-node1
 * 192.168.100.62 kube-node2 kube-node2
 * 192.168.100.63 kube-node3 kube-node3
-### 请根据自己的机器、网络情况修改./scripts/environment.sh脚本中的变量设置
+### 请根据自己的机器、网络情况修改./scripts目录下相关脚本中的变量设置和ip配置
+environment.sh、deployEtcd.sh、kube-apiserver-nginx.sh、
+deploy-kube-apiserver.sh、deploy-kube-controller-manager.sh、deploy-kube-scheduler.sh
+等脚本中存在要修改的项。
 ### 最后执行 ./install-start.sh 即可
