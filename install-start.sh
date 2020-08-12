@@ -5,7 +5,7 @@ chmod a+x ./scripts/*
 cd scripts/ && \
     ./initialize.sh && \
     ./createCA.sh && \
-    ./deployKubectl.sh && \ 
+    ./deployKubectl.sh && \
     ./deployEtcd.sh && \
     ./deployFlannel.sh && \
     ./kube-apiserver-nginx.sh && \
