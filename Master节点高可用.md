@@ -38,6 +38,8 @@ systemctl status haproxy -l
 # 获取到kubectl的服务器信息
 kubectl version
 ```
+![Image text](images/vip.jpg)
+
 以上操作输出说明keepalived和haproxy都是成功的。
 这个时候可以依次将其他Master节点的keepalived和haproxy启动。
 
